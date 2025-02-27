@@ -1,0 +1,23 @@
+//c++ ilk addimlar series (1st lesson)
+#include <iostream>
+using namespace std;
+int main(){
+    int bal;
+    cout<<"sagirdin balini qeyd edin;";
+    cin>>bal;
+    if (bal>=1 && bal<=3)
+    {
+        cout<<"initial";
+    }
+    else if(bal>=4 && bal<=6)
+    {
+        cout<<"average";
+    }
+    else if (bal>=7 && bal<=9){
+        cout<<"sufficient";
+    }
+    else if(bal>=10 && bal<=12)
+    {
+        cout<<"high";
+    }
+}
