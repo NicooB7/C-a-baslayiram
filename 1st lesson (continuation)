@@ -1,0 +1,53 @@
+// 1)
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+
+    int maxNumber;
+
+    if (a >= b && a >= c && a >= d) 
+        maxNumber = a;
+    else if (b >= a && b >= c && b >= d) 
+        maxNumber = b;
+    else if (c >= a && c >= b && c >= d) 
+        maxNumber = c;
+    else 
+        maxNumber = d;
+
+    cout << maxNumber << endl;
+
+    return 0;
+}
+------------------------------------------------
+// 2)
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int a, b;
+    cin>>a>>b;
+    if (a%b!=0){
+        cout<<a/b<<endl;
+        cout<<a%b<<endl;
+    }
+    else{
+        cout<< "divisible";
+    }
+}
+-----------------------------------------------------
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+
+    int t;
+    cin>>t;
+    if(t > 0){
+        cout<<"Water";
+    }
+    else{
+        cout<<"Ice";
+    }
+}
